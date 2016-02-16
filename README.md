@@ -26,7 +26,8 @@ execute_function_after_files_loaded(
 <br/>
 <br/>
 <br/>
-<h2>Example Usage A</h2>
+<h2>Example Usage A</h2><br/>
+Create an alert text immediately after the load process completes for the files "image-file-a.gif", "image-file-b.jpg", "image-file-c.png" and "video-file-a.mp4".
 ```
 execute_function_after_files_loaded( 
   function(){
@@ -44,7 +45,8 @@ execute_function_after_files_loaded(
 <br/>
 <br/>
 <br/>
-<h2>Example Usage B</h2>
+<h2>Example Usage B</h2><br/>
+Create an alert text 5 seconds (5000 milliseconds) after the load process completes for the files "image-file-a.gif", "image-file-b.jpg", "image-file-c.png" and "video-file-a.mp4".
 ```
 execute_function_after_files_loaded( 
   function(){
